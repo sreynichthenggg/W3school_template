@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+}
+.container{
+    width: 100%;
+    /* height: 700px; */
+    background-color: rgb(234, 151, 28);
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.box-header{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    position: relative;
+    /* display: flex;
+   align-items:center ; */
+    background-color: rgb(8, 11, 11);
+    height: 70px;
+    position: fixed;
+}
+
+
+
+ul{
+    padding: 0 !important;
+    margin: 0;
+   
+
+
+}
+.box-header img{
+
+    margin-right: 0;
+    float: left;
+    padding: 16px;
+
+
+}
+.header{
+    /* display: flex; */
+    justify-content: space-between;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    list-style-type: none; 
+    /* overflow: hidden; */
+  
+   
+}
+.header ul{
+    text-align: center;
+    color: rgb(231, 226, 235);
+}
+
+.header ul,.header ul li{
+    height: 70px;
+}
+
+
+
+.header ul li a{
+    
+   height: 70px;
+    padding: 0 20px;
+    color: rgb(247, 241, 241);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    
+   
+     
+}
+
+div.header ul :hover{
+    background-color: red;
+    /* height: 0px; */
+   
+}
+.header-left li a{
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.header-left ul ,.header ul{
+    list-style-type: none;
+    display: flex;
+   
+    align-items: center;
+
+
+   
+   
+}
+.header-wrapper{
+   
+    display: flex;
+    justify-content: space-between;
+    /* cursor: grap; */
+    align-items: center;
+    position: relative;
+
+   
+}
+button{
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 15px ;
+    
+   
+
+}
+button.b1{
+    background-color: rgb(247, 251, 255);
+
+}
+button.b2{
+    background-color: rgb(244, 169, 210);
+    
+}
+button.b3{
+    background-color: rgb(237, 247, 43);
+    
+}
+button.b4{
+    background-color: rgb(5, 175, 28);
+    color: white;
+    
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+
+
+
+
+
+
+.menu{
+    width: 100%;
+    /* height: 40px; */
+    background-color: rgb(9, 110, 76);
+    overflow: hidden;
+   position: sticky;
+   position: fixed;
+   top: 70px;
+}
+/* .menu fa-solid fa-house{
+    padding: 5px;
+} */
+.menu ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: left;
+
+        
+    }
+
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Battambang', cursive;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+/* ======================= */
+
+
+/* ====================== */
+.homepage{
+    /* margin-right: 30%; */
+    
+    width: 100%;
+    
+    height: 100vh;
+    background-color: rgb(40, 39, 41);
+    overflow: hidden;
+
+}
+.sidebar-left {
+   
+    background-color: #4d4646;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    font-size: 12px;
+    font-weight: bold;
+    /* left: -1px; */
+    padding: 10px 7px 5px;
+    height:82vh;
+    overflow:scroll;
+    /* overflow-y:hidden; */
+    width: 15%;
+    height: 82vh;
+    position:fixed;
+    margin-top: 16vh;
+}
+.sidebar-left ul li a, h1{
+    color: #DDDDDD;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar-left ul li :active{
+    background-color: #04AA6D!important;
+    color: #ffffff!important;
+    display: block;
+}
+
+
+.sidebar-left ul li{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    /* padding-left: 20px; */
+    padding: 2px 5px ;
+    font-weight: 400;
+  
+ 
+}
+.sidebar-right{
+    margin-top: 117px;
+    margin-inline-start: 16%;
+    width: 90%;
+    display: flex;
+    height: 82vh;
+    background-color: #3B3C3E;
+}
+
+
+
+/* ====================== */
+.footer{
+  
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+}
+
+
+
+
+
+

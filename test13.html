@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Battambang:wght@400;700&family=Bayon&family=Bebas+Neue&family=Dongle:wght@400;700&family=Fredoka+One&family=Freehand&family=Hanuman:wght@700&family=Indie+Flower&family=Khmer&family=Koulen&family=Metal&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Russo+One&family=Staatliches&family=Taprom&family=Ubuntu:ital,wght@0,300;0,700;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<style>
+    .menu{
+        width: 70%;
+        overflow: hidden;
+        margin: auto;
+        background-color: red;
+    }
+    .menu ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu ul li{
+        float: left;
+    }
+    .menu ul li a{
+        display: block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Battambang', cursive;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    .menu ul li a:hover{
+        background-color: green;
+        
+    }
+    .menu ul li:hover .sub-menu{
+        /* display: block; */
+        /* visibility: visible; */
+        transform: translateY(0);
+        opacity: 1;
+    }
+    .sub-menu{
+        width: 150px;
+        background-color: green;
+        position: absolute;
+        /* display: none; */
+        /* visibility: hidden; */
+        transform: translateY(30px);
+        transition: 0.5s;
+        opacity: 0;
+    }
+</style>
+<body>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href=""><i class="fa-solid fa-house"></i></i></a>
+                <div class="sub-menu">
+                    <ul>
+                        <li>
+                            <a href="">Example1</a>
+                        </li>
+                        <li>
+                            <a href="">Example1</a>
+                        </li>
+                        <li>
+                            <a href="">Example1</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="">កីឡា</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li>
+                            <a href="">Example1</a>
+                        </li>
+                        <li>
+                            <a href="">Example1</a>
+                        </li>
+                        <li>
+                            <a href="">Example1</a>
+                        </li>
+                    </ul>
+            </li>
+            <li>
+                <a href="">សង្គម</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li>
+                            <a href="">Example1</a>
+                        </li>
+                        <li>
+                            <a href="">Example1</a>
+                        </li>
+                        <li>
+                            <a href="">Example1</a>
+                        </li>
+                    </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
